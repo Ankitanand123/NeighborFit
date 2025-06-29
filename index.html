@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeighborFit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>NeighborFit</h1>
+    <p>Select your lifestyle preferences:</p>
+    <div class="form">
+      <label>
+        <input type="checkbox" id="parks" />
+        Love green parks
+      </label>
+      <label>
+        <input type="checkbox" id="nightlife" />
+        Enjoy nightlife
+      </label>
+      <label>
+        <input type="checkbox" id="publicTransport" />
+        Need public transport
+      </label>
+      <button onclick="findMatch()">Find My Match</button>
+    </div>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
